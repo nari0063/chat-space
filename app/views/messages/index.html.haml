@@ -10,7 +10,7 @@
         %ul.left-header__members
           - @group.users.each do |user|
             Menber：
-            =user.name
+              =user.name
       .right-header
         = link_to edit_group_path(@group.id) do
           Edit
