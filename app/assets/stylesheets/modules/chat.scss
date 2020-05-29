@@ -30,7 +30,7 @@
       line-height: 40px;
       margin-top: 28px;
       padding: 0 20px;
-      &__editlink {
+      &__editlink a {
         text-decoration: none;
       }
     }
@@ -43,25 +43,26 @@
     height: calc(100vh - 190px);
     overflow: scroll;
     .message{
-     .upper-message{
-       display: flex;
-       &__user-name{
-         color: #333333;
-         font-size: 16px;
-         font-weight: bold;
-       }
-       &__date{
-         color: #999999;
-         font-size: 12px;
-         padding-left: 10px;
-       }
-     }
-     .lower-meesage{
-       margin-top: 10px;
-       &__content{
-         color: #434a54;
-         font-size: 14px;
-         margin-bottom: 40px;
+      margin-bottom:40px;
+      .upper-message{
+        display: flex;
+        &__user-name{
+          color: #333333;
+          font-size: 16px;
+          font-weight: bold;
+        }
+        &__date{
+          color: #999999;
+          font-size: 12px;
+          padding-left: 10px;
+        }
+      }
+      .lower-meesage{
+        margin-top: 10px;
+        &__content{
+          color: #434a54;
+          font-size: 14px;
+          margin-bottom: 40px;
       }
      }
     }
@@ -74,24 +75,26 @@
     padding: 20px 50px 20px 40px;
     &__message{
       border: none;
+      box-sizing: border-box;
       float: left;
       height: 50px;
+      padding: 0 10px;
       width: calc(100% - 150px);
-   }
+    }
     &__mask{
       background-color: $white;
       float: left;
       height: 50px;
       padding-right: 10px;
       &__image{
-        font-size: 1.3rem;
+        font-size: 20px;
         line-height: 50px;
         cursor: pointer;
      }
       .hidden{
         display: none;
      }
-   }
+    }
     &__submit{
       background-color:$light_blue;
       border: none;
