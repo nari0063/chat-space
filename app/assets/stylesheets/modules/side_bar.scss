@@ -34,11 +34,13 @@
       &__name{
         color: $white;
         font-size: $side_group_name;
+        text-decoration: none;
       }
       &__message{
         color: $white;
         font-size: 11px;
         margin-top: $side_group_message;
+        text-decoration: none;
       }
     }
   }
