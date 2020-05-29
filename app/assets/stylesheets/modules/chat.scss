@@ -30,7 +30,6 @@
       line-height: 40px;
       margin-top: 28px;
       padding: 0 20px;
-      text-decoration: none ;
     }
   }
 
@@ -75,7 +74,7 @@
       float: left;
       height: 50px;
       width: calc(100% - 150px);
-    }
+   }
     &__mask{
       background-color: $white;
       float: left;
@@ -89,7 +88,7 @@
       .hidden{
         display: none;
      }
-    }
+   }
     &__submit{
       background-color:$light_blue;
       border: none;
